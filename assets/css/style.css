@@ -151,8 +151,9 @@ header{
 }
 
 .logo-text {
-    font-size: 3em;
-    padding: 0.2em 0;
+    font-size: 2em;
+    padding-top:  0.2em;
+    padding-bottom: 0em;
     color: #fff;
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
@@ -216,10 +217,10 @@ header{
     height: 263px;
 }
 .exp{
-	padding-top: 76px;
+	padding-top: 0px;
 }
 .service-area {
-    margin: 80px 0px 40px 0px;
+    margin: 10px 0px 10px 0px;
 }
 
 .service-wrap {
@@ -255,7 +256,7 @@ header{
 
 
 #portfolio {
-    padding: 80px 0px 0px 0px;
+    padding: 0px 0px 10px 0px;
 }
 
 .port {
@@ -441,7 +442,7 @@ header{
     background: rgba(0, 0, 0, 0.7);
     width: 100%;
     position: relative;
-    padding: 80px 0px 60px 0px;
+    padding: 0px 0px 10px 0px;
 }
 
 .moreDetails {
@@ -674,7 +675,7 @@ footer {
 
 
 	.logo-text {
-	    font-size: 2em;
+	    font-size: 1em;
 	}
 	.centered p {
 	    font-size: 1em;
