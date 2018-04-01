@@ -1,3 +1,326 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+.margin{
+	margin-left: 1em;
+}
+
+/* start header and showcase*/
+#header h1{
+	text-align: center;
+	font-weight: bolder;
+	letter-spacing: 0.3em;
+	background-color: #F6F6F6;
+}
+#showcase {
+	margin-top: 1.5em;
+	background-color: #191919;
+	color: #fff;
+	margin-bottom: -1px;
+	padding-bottom: 0;	
+	background-image: url(../images/strip-bg-01.jpg);
+}
+
+
+#profile img{
+	 
+	height: 70vh; 	
+	margin: 6vh;
+	border: 1px solid green;
+	border-radius: 80px ;
+	
+}
+
+#aboutme h3 {
+	font-size: 2em;
+	font-weight: bolder;
+	text-align: center;
+	letter-spacing: 0.3em;
+}
+
+#aboutme {
+	margin-top: 4vh;	
+}
+#aboutme p{
+	line-height: 2em;
+	letter-spacing: 0.2em;
+	font-weight: lighter;
+	font-size: 1.2em;
+	opacity: 0.8;
+	text-align: justify;
+	}
+.sec {
+	flex-basis: 50%;
+	
+	}
+
+#conttact {
+	margin-top: 1.5em;
+	background-color: #191919;
+	color: #fff;
+	margin-bottom: -1px;
+	padding-bottom: 0;	
+	
+	background-image: url(../images/strip-bg-04.jpg);
+}
+
+/* End header and showcase*/
+
+/* start techsection */
+
+.techsub{
+
+	width: 25%;
+}	
+.techsub img {
+	width: 50%;
+	height: 80%;
+}
+
+
+.techsubparent{
+
+	margin-left: 5%;
+	display: flex;
+   	flex-wrap: wrap;
+   	width: 100%;
+	justify-content: space-around;
+	
+
+}
+#techsection{
+
+	margin-top: 1em;
+	background-image: url(../images/strip-bg-02.jpg);
+}
+#techsection h1{
+	text-align: center;	
+	font-weight: bolder;
+	margin-bottom: 0.1em;
+	font-family: 'Anton', sans-serif;
+}
+.techsub h2{
+	font-size: 1em;
+	letter-spacing: 0.1em;
+	font-weight: lighter;
+	text-align: center;	
+}
+
+
+	
+/* end techsection */
+
+/* start div education */
+#ed h1 {
+	text-align: center;
+	letter-spacing: 0.2em;
+	font-weight: bolder;
+}
+.educationtxt p {
+	font-family: arial;
+	font-size: 0.5em;
+}
+#ed {
+	text-align: center;
+}
+
+
+
+/* End div education */
+.portfolioitems img{
+	width: 33.2vh;
+}
+.portfolioitems a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	font-family: arial;
+	background-color: #720505;
+	padding: 10px 15px;
+	font-weight: lighter;
+	letter-spacing: 0.1em;
+	font-size: 1em;
+	border-radius: 5px;
+
+
+}
+.portfolioitems img:hover {
+	
+		opacity: 0.6;
+		}
+.portfolioitems a:hover {
+		font-weight: bolder;
+		background-color: #d60808;
+		cursor: pointer;
+
+}
+#web1img{
+	height: 7em;
+}
+#portfoliosec{
+		text-align: center;
+		background-color: #161413;
+	}
+
+#portfoliosec h1{
+	text-align: center;
+	font-weight: bolder;
+	color: #fff;
+	letter-spacing: 0.2em;
+}
+/* Start div portfolio*/
+	
+/* End div portfolio*/
+
+/* media queries */
+@media (min-width: 900px){
+	#showcase {
+		display: flex;
+
+	}
+
+	#conttact{
+		display: flex;
+		justify-content: space-between;
+	}
+	#profile img{
+		width: 75%;
+		height: 85%;
+		margin-left: 40px;
+	}
+	.portfolioitems img:hover {
+	
+		opacity: 0.6;
+	}
+
+
+	#aboutme p{
+		text-align: center;
+		opacity: 0.9;
+		padding: 5px;
+		margin-right: 5px;
+		font-size: 1.1em;
+		text-align: justify;
+	}
+	.techsubparent{
+	display: flex;
+	}
+	.education {
+	display: flex;
+	justify-content: center;
+
+	}
+	.educationtxt p {
+	font-family: arial;
+	font-size: 0.5em;
+}
+	#profession{
+	display: flex;
+	justify-content: center;
+	}
+
+	#portfolio {
+	display: flex;
+	justify-content: space-around;
+	}
+	
+}
+
+
+@media (min-width: 468px) and (max-width: 899px){
+	#showcase {
+
+
+	}
+
+
+	#conttact{
+
+	}
+	.techsubparent{
+		margin-left: 10%;
+	}
+	.techsub{
+
+		width: 50%;
+	}
+
+	#profile img{
+		height: 70%;
+		width: 70%;
+		margin: 4vw 2vw 2vw 14vw;
+		border: 3px solid black;
+		box-shadow: 5px 5px 10px #ccc;
+	}
+	
+	#aboutme p{
+	line-height: 2em;
+	letter-spacing: 0.2em;
+	font-weight: lighter;
+	opacity: 0.7;
+	padding: 15px;
+	}
+	#header h1{
+	text-align: center;
+	font-weight: bolder;
+	letter-spacing: 0.3em;
+	}
+	.portfolioitems img {
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 467px) {
+	#showcase {
+		
+	}
+
+	#conttact{
+		
+	}
+
+	#techsection h1{
+	font-size: 20px;
+	text-align: center;	
+	font-weight: bolder;
+	font-family: 'Anton', sans-serif;
+}
+
+
+	.techsub{
+		margin-left: 25%;
+		width: 100%;
+	}
+
+	#profile img{
+		height: 60%;
+		width: 80%;
+		margin: 4vw 2vw 2vw 10vw;
+		border: 3px solid black;
+		box-shadow: 5px 5px 10px #ccc;
+	}
+	#aboutme p{
+	line-height: 2em;
+	letter-spacing: 0.2em;
+	font-weight: lighter;
+	opacity: 0.7;
+	padding: 15px;
+	}
+	#header h1{
+	text-align: center;
+	font-weight: bolder;
+	letter-spacing: 0.3em;
+	}	.portfolioitems img {
+		width: 100%;
+	}
+}
+
+
 
 
 
@@ -537,6 +860,9 @@ footer {
     padding: 20px 0px;
     text-align: right;
 }
+
+
+
 .designed a:hover {
     color: #e66f69;
 }
