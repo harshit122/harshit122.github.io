@@ -688,10 +688,7 @@ pre code {
     clear: both;
     content: ""
 }
-.row {
-    margin-right: -.9375rem;
-    margin-left: -.9375rem
-}
+
 .row::after {
     display: table;
     clear: both;
