@@ -66,7 +66,7 @@ body {
      width: 50%;
      height: 23vh;
 }
- .techsubparent{
+ .technologiessub{
      margin-left: 5%;
      display: flex;
      flex-wrap: wrap;
@@ -117,7 +117,7 @@ body {
          font-size: 1.1em;
          text-align: justify;
     }
-     .techsubparent{
+     .technologiessub{
          display: flex;
     }
      #profession{
@@ -134,7 +134,7 @@ body {
     }
      #conttact{
     }
-     .techsubparent{
+     .technologiessub{
          margin-left: 10%;
     }
      .techsub{
