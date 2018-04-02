@@ -25,7 +25,7 @@ body {
      font-weight: bolder;
 }
  #imageCss img{
-     height: 20%;
+     height: 80%;
      margin: 6vh;
      border: 1px solid green;
      border-radius: 80px ;
@@ -64,7 +64,7 @@ body {
 }
  .techsub img {
      width: 50%;
-     height: 20vh;
+     height: 23vh;
 }
  .techsubparent{
      margin-left: 5%;
@@ -139,6 +139,7 @@ body {
     }
      .techsub{
          width: 50%;
+         height: 50%;
     }
      #imageCss img{
          height: 70%;
